@@ -13,6 +13,7 @@
 		04960FF71ACD855200A78342 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04960FF61ACD855200A78342 /* Images.xcassets */; };
 		04960FFA1ACD855200A78342 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04960FF81ACD855200A78342 /* LaunchScreen.xib */; };
 		049610061ACD855200A78342 /* SideMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049610051ACD855200A78342 /* SideMenuTests.swift */; };
+		04FE5B291ACDAB4A008549F0 /* SideMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04FE5B281ACDAB4A008549F0 /* SideMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		04960FFF1ACD855200A78342 /* SideMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SideMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		049610041ACD855200A78342 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		049610051ACD855200A78342 /* SideMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTests.swift; sourceTree = "<group>"; };
+		04FE5B281ACDAB4A008549F0 /* SideMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				04960FEF1ACD855200A78342 /* AppDelegate.swift */,
 				04960FF11ACD855200A78342 /* ViewController.swift */,
 				04960FF31ACD855200A78342 /* Main.storyboard */,
+				04FE5B281ACDAB4A008549F0 /* SideMenu.xib */,
 				04960FF61ACD855200A78342 /* Images.xcassets */,
 				04960FF81ACD855200A78342 /* LaunchScreen.xib */,
 				04960FED1ACD855200A78342 /* Supporting Files */,
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04960FF51ACD855200A78342 /* Main.storyboard in Resources */,
+				04FE5B291ACDAB4A008549F0 /* SideMenu.xib in Resources */,
 				04960FFA1ACD855200A78342 /* LaunchScreen.xib in Resources */,
 				04960FF71ACD855200A78342 /* Images.xcassets in Resources */,
 			);
@@ -405,6 +409,7 @@
 				0496100B1ACD855200A78342 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0496100C1ACD855200A78342 /* Build configuration list for PBXNativeTarget "SideMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				0496100E1ACD855200A78342 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
